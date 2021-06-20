@@ -36,7 +36,7 @@ def validate_ip(target_host2):
             return False
 
 
-# This function
+# This function bruteforces and checks if the password is currect
 def sh_bruteforce(password2):
     try:
         for passwd in password2:
